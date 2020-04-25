@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weight Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-4">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds ...">
+                    </div>
+                    <div id="output">
+                        <div class="card bg-primary mb-2">
+                            <div class="card-body">
+                                <h4>Grams:</h4>
+                                <div id="gramsOutput"></div>
+                            </div>
+                        </div>
+                        <div class="card bg-success mb-2">
+                            <div class="card-body">
+                                <h4>Kilograms:</h4>
+                                <div id="kgOutput"></div>
+                            </div>
+                        </div>
+                        <div class="card bg-danger mb-2">
+                            <div class="card-body">
+                                <h4>Ounces:</h4>
+                                <div id="ozOutput"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./popper.min.js"></script>
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./bootstrap.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
